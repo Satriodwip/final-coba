@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mahasiswa Peduli</title>
+    <link rel="icon" type="image/x-icon" href="assets/img/logo.jpg" />
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="css/sign.css" rel="stylesheet" />
+</head>
+<body class="singin" style="background-image: url('assets/img/bg1.jpg')">
+    <div class="wrapper">
+        <form action="">
+            <h1>Sign up</h1>
+            <div class="input-box">
+                <input type="text" placeholder="Username" required>
+                <i class='bx bxs-user'></i>
+            </div>
+            <div class="input-box">
+                <input type="text" id="email" placeholder="Email" required>
+                <i class='bx bxl-google'></i>
+            </div>
+            <div class="input-box">
+                <input type="password" id="password" placeholder="Password" required>
+                <i class='bx bxs-lock-alt' ></i>
+            </div>
+            <div class="input-box">
+		        <input type="password" id="password" placeholder="Konfirmasi Password" required>
+                <i class='bx bxs-lock-alt' ></i>
+            </div>
+            <p class="text-center pt-2">Not a member? <a href="login.html">Sign In</a></p>
+            <button type="submit" class="btn pt-2 align-items-center text-center" onclick="validateForm()">Sign Up </button> 
+        </form>
+    </div>
+    
+
+
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+
+
+</body>
+</html>
